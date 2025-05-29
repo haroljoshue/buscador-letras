@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuneFlow - Letras</title>
+    <link rel="icon" type="image/png" href="image.png" />
+    <link rel="stylesheet" href="diseño.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>TuneFlow</h1>
+            <img src="image.png" alt="TuneFlow Logo" class="logo" />
+
+        </div>
+        <form id="letraForm">
+            <label for="artista">Artista:</label>
+            <input type="text" id="artista" placeholder="Ej. Anuel AA" required />
+
+            <label for="cancion">Canción:</label>
+            <input type="text" id="cancion" placeholder="Ej. Amanece" required />
+
+            <button type="submit">Buscar Letra</button>
+        </form>
+
+        <div id="letraResultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
